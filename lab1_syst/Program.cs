@@ -52,7 +52,7 @@ class Program
     class ProcessInfo
     {
         public int ProcessNumber { get; }
-        public string ResourceUsage { get; }
+        public string ResourceUsage { get; } 
 
         public ProcessInfo(int processNumber, string resourceUsage)
         {
